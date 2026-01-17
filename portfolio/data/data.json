@@ -1,0 +1,244 @@
+{
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "description": "Building responsive, accessible, and performant user interfaces with modern web technologies.",
+      "icon": "fas fa-code",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React"]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Intermediate",
+      "description": "Creating robust server-side applications and APIs using popular backend frameworks and databases.",
+      "icon": "fas fa-server",
+      "tags": ["Node.js", "Core Java", "MongoDB", "MSQL","PHP"]
+    },
+    {
+      "name": "Responsive Design",
+      "level": "Advanced",
+      "description": "Developing websites that provide optimal viewing experience across all devices and screen sizes.",
+      "icon": "fas fa-mobile-alt",
+      "tags": ["Flexbox", "CSS Grid", "Media Queries", "Mobile-First"]
+    },
+    {
+      "name": "Version Control",
+      "level": "Advanced",
+      "description": "Managing code changes and collaborating with teams using modern version control systems.",
+      "icon": "fas fa-code-branch",
+      "tags": ["Git", "GitHub"]
+    }
+  ],
+  "projects": [
+    {
+  "title": "Assignment & Resource Management System (ARMS)",
+  "description": "A full-stack Learning Management System (LMS) that provides a unified platform for students, teachers, and administrators to manage assignments, course materials, submissions, evaluations, and academic data with secure role-based access.",
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Bootstrap",
+    "Node.js",
+    "Express.js",
+    "MySQL"
+  ],
+  "icon": "fas fa-graduation-cap",
+  "github": "https://github.com/saikrishna1235/ARMS-Assignment-and-resources-management-system-",
+  "live": "https://arms-demo.example.com"
+},
+{
+  "title": "IT Printer & Resource Management System",
+  "description": "A web-based IT management system designed to handle printer resources, staff complaints, service engineers, notices, and user roles. The system supports role-based dashboards for managers, IT staff, engineers, and employees, enabling efficient complaint tracking, resource allocation, and maintenance workflows.",
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "PHP",
+    "MySQL"
+  ],
+  "icon": "fas fa-tools",
+  "github": "https://github.com/saikrishna1235/ITSRP",
+  "live": "https://itpra-demo.example.com"
+}
+
+  ],
+  "certificates": [
+  {
+    "title": "Microsoft Certified: Azure AI Fundamentals",
+    "issuer": "Microsoft",
+    "description": "Foundational certification covering AI workloads, machine learning concepts, computer vision, NLP, and responsible AI using Microsoft Azure.",
+    "date": "September 2025",
+    "credentialId": "wNMUR-2FMo",
+    "icon": "fab fa-microsoft"
+  },
+  {
+    "title": "Introduction to Git and GitHub",
+    "issuer": "Google via Coursera",
+    "description": "Hands-on training in Git version control, GitHub workflows, repositories, commits, branches, and collaboration best practices.",
+    "date": "October 2025",
+    "credentialId": "E8KKG1R26ZXA",
+    "icon": "fab fa-google"
+  },
+  {
+    "title": "GitHub Copilot for Developers",
+    "issuer": "Infosys (Springboard)",
+    "description": "Practical course on using GitHub Copilot to enhance developer productivity with AI-assisted code generation and suggestions.",
+    "date": "October 2025",
+    "credentialId": "N/A",
+    "icon": "fab fa-github"
+  },
+  {
+    "title": "Prompt Engineering",
+    "issuer": "Infosys (Springboard)",
+    "description": "Focused training on crafting effective prompts for AI models to improve accuracy, reasoning, and task performance.",
+    "date": "October 2025",
+    "credentialId": "N/A",
+    "icon": "fas fa-brain"
+  },
+  {
+    "title": "Python Development with ChatGPT: Full-Stack App Development",
+    "issuer": "Coursera Project Network",
+    "description": "Project-based learning experience focused on building full-stack Python applications using ChatGPT-assisted development.",
+    "date": "October 2025",
+    "credentialId": "57R5GK9BIHNA",
+    "icon": "fab fa-python"
+  },
+  {
+    "title": "GitHub Copilot with Python: Creating Text Games",
+    "issuer": "Coursera Project Network",
+    "description": "Hands-on project demonstrating the use of GitHub Copilot with Python to design and build interactive text-based games.",
+    "date": "October 2025",
+    "credentialId": "JCTH6PLS8H6H",
+    "icon": "fas fa-gamepad"
+  },
+  {
+    "title": "AWS Academy Graduate – Cloud Developing",
+    "issuer": "Amazon Web Services (AWS)",
+    "description": "Advanced cloud development training covering AWS services, application development, deployment, and cloud-native best practices.",
+    "date": "October 2025",
+    "credentialId": "Credly Badge",
+    "icon": "fab fa-aws"
+  },
+  {
+    "title": "AWS Academy Graduate – Cloud Foundations",
+    "issuer": "Amazon Web Services (AWS)",
+    "description": "Foundational knowledge of cloud computing concepts, AWS core services, security, pricing models, and architectural principles.",
+    "date": "October 2025",
+    "credentialId": "Credly Badge",
+    "icon": "fab fa-aws"
+  },
+  {
+    "title": "AWS Academy Graduate – Cloud Security Builder",
+    "issuer": "Amazon Web Services (AWS)",
+    "description": "Focused training on AWS cloud security fundamentals including identity management, data protection, and secure cloud architectures.",
+    "date": "October 2025",
+    "credentialId": "Credly Badge",
+    "icon": "fas fa-shield-alt"
+  },
+  {
+    "title": "AWS Academy Graduate – Cloud Web Application Builder",
+    "issuer": "Amazon Web Services (AWS)",
+    "description": "Hands-on experience in building, deploying, and managing scalable web applications using AWS services.",
+    "date": "October 2025",
+    "credentialId": "Credly Badge",
+    "icon": "fas fa-cloud"
+  },
+  {
+    "title": "Microsoft Certified: Azure AI Fundamentals",
+    "issuer": "Microsoft",
+    "description": "Certification covering AI workloads, machine learning concepts, computer vision, NLP, and responsible AI using Microsoft Azure.",
+    "date": "September 2025",
+    "credentialId": "wNMUR-2FMo",
+    "icon": "fab fa-microsoft"
+  },
+  {
+    "title": "Introduction to Git and GitHub",
+    "issuer": "Google via Coursera",
+    "description": "Practical training in Git version control, GitHub repositories, branching, collaboration, and open-source workflows.",
+    "date": "October 2025",
+    "credentialId": "E8KKG1R26ZXA",
+    "icon": "fab fa-google"
+  },
+  {
+    "title": "CCNA: Introduction to Networks",
+    "issuer": "Cisco Networking Academy",
+    "description": "Comprehensive networking fundamentals including OSI model, IP addressing, routing, switching, and network security basics.",
+    "date": "November 2025",
+    "credentialId": "Cisco Verified",
+    "icon": "fab fa-cisco"
+  },
+  {
+    "title": "GitHub Copilot for Developers",
+    "issuer": "Infosys Springboard",
+    "description": "AI-assisted software development using GitHub Copilot to improve productivity, code quality, and development speed.",
+    "date": "October 2025",
+    "credentialId": "N/A",
+    "icon": "fab fa-github"
+  },
+  {
+    "title": "Prompt Engineering",
+    "issuer": "Infosys Springboard",
+    "description": "Training on designing effective prompts for AI models to enhance reasoning, accuracy, and task performance.",
+    "date": "October 2025",
+    "credentialId": "N/A",
+    "icon": "fas fa-brain"
+  },
+  {
+    "title": "Python for Data Science (CS250)",
+    "issuer": "Saylor Academy",
+    "description": "In-depth course on Python programming for data analysis, statistics, data processing, and real-world data science applications.",
+    "date": "November 2025",
+    "credentialId": "4318435981KS",
+    "icon": "fab fa-python"
+  },
+  {
+    "title": "Python Development with ChatGPT: Full-Stack App Development",
+    "issuer": "Coursera Project Network",
+    "description": "Project-based learning focused on building full-stack Python applications with ChatGPT-assisted development.",
+    "date": "October 2025",
+    "credentialId": "57R5GK9BIHNA",
+    "icon": "fas fa-code"
+  },
+  {
+    "title": "GitHub Copilot with Python: Creating Text Games",
+    "issuer": "Coursera Project Network",
+    "description": "Hands-on project using GitHub Copilot and Python to design interactive text-based games.",
+    "date": "October 2025",
+    "credentialId": "JCTH6PLS8H6H",
+    "icon": "fas fa-gamepad"
+  },
+  {
+    "title": "Front-End Web Developer Bootcamp: HTML, CSS, JavaScript & React",
+    "issuer": "TutorialsPoint",
+    "description": "Comprehensive front-end development bootcamp covering HTML, CSS, JavaScript, and React with hands-on practical learning.",
+    "date": "October 2025",
+    "credentialId": "TP-8DTH3Y4Y",
+    "icon": "fab fa-react"
+  },
+  {
+    "title": "JavaScript for Beginners",
+    "issuer": "Simplilearn SkillUp",
+    "description": "Beginner-level course covering JavaScript fundamentals, syntax, control structures, and basic programming concepts.",
+    "date": "October 2025",
+    "credentialId": "9234582",
+    "icon": "fab fa-js-square"
+  },
+  {
+    "title": "Power BI Workshop",
+    "issuer": "OfficeMaster",
+    "description": "Hands-on workshop focused on creating AI-powered interactive dashboards using Microsoft Power BI.",
+    "date": "November 2025",
+    "credentialId": "Verified",
+    "icon": "fas fa-chart-bar"
+  },
+  {
+    "title": "Internal Smart India Hackathon 2025 – Participation",
+    "issuer": "Hackathon Club, SR University",
+    "description": "Participated in the Internal Smart India Hackathon 2025, contributing to problem-solving, innovation, and team collaboration.",
+    "date": "September 2025",
+    "credentialId": "N/A",
+    "icon": "fas fa-users"
+  }
+]
+
+}

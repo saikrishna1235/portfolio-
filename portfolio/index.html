@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Krishna | Frontend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Sai<span>Krishna</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3 class="greeting">Hello, I'm</h3>
+                    <h1 class="name">Sai Krishna</h1>
+                    <h2 class="title">Web Developer</h2>
+                    <p class="description">
+                        I craft immersive digital experiences with clean code and modern design principles. 
+                        Passionate about creating responsive, accessible, and performant web applications.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <div class="avatar">
+                            <!-- <i class="fas fa-user"></i> -->
+                            <img src="passphoto.jpg" width="350px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-container" id="skills-container">
+                <!-- Skills will be dynamically loaded here -->
+                <div class="loading">Loading skills...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of my recent work</p>
+            </div>
+            <div class="projects-container" id="projects-container">
+                <!-- Projects will be dynamically loaded here -->
+                <div class="loading">Loading projects...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Professional credentials and qualifications</p>
+            </div>
+            <div class="certificates-container" id="certificates-container">
+                <!-- Certificates will be dynamically loaded here -->
+                <div class="loading">Loading certificates...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have a project in mind? Let's collaborate</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>saikrishnakoyyada20669@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+91 6303212628</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Warangal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/saikrishna1235" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/saikrishna-koyyada-422923365/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/916303212628" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://leetcode.com/progress/" class="social-link"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Sai<span>Krishna</span></div>
+                <p class="footer-text">Crafting digital experiences with code and creativity</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="copyright">&copy; <span id="current-year">2023</span> Sai Krishna. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
