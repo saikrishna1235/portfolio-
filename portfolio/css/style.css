@@ -837,3 +837,125 @@ a {
         gap: var(--spacing-md);
     }
 }
+
+.certificates-collapse {
+    text-align: center;
+}
+
+.collapse-toggle {
+    background: transparent;
+    border: none;
+    border: 2px solid #5a67ff ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: var(--primary-color);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    top: -21px;
+}
+
+.certificates-container.collapsed {
+    display: none;
+}
+.certificate-card.major {
+    border-left: 4px solid var(--primary-color);
+    background: rgba(0, 123, 255, 0.05);
+}
+.certificate-card.major .certificate-icon {
+    background-color: rgba(0, 123, 255, 0.2);
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+/* Education Section */
+.education-container {
+  display: grid;
+  gap: 24px;
+}
+
+/* Card */
+.education-card {
+  background: var(--bg-card);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent-primary);
+  box-shadow: 0 10px 30px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px var(--shadow-color);
+}
+
+/* Titles */
+.education-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.education-card h4 {
+  margin: 6px 0;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+/* Status */
+.edu-status {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.edu-status.completed {
+  color: var(--accent-secondary);
+}
+
+.edu-status.pursuing {
+  color: var(--accent-tertiary);
+}
+
+/* Text */
+.education-card p {
+  margin-top: 10px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* CGPA Highlight */
+.education-card strong {
+  color: var(--accent-secondary);
+}
+
+/* PDF Link */
+.edu-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.edu-link:hover {
+  color: var(--accent-secondary);
+}
+.education-card::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+}
+
