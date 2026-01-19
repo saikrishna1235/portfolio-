@@ -69,7 +69,8 @@
     "description": "Foundational certification covering AI workloads, machine learning concepts, computer vision, NLP, and responsible AI using Microsoft Azure.",
     "date": "September 2025",
     "credentialId": "wNMUR-2FMo",
-    "icon": "fab fa-microsoft"
+    "icon": "fab fa-microsoft",
+     "major": true
   },
   {
     "title": "Introduction to Git and GitHub",
@@ -149,7 +150,8 @@
     "description": "Certification covering AI workloads, machine learning concepts, computer vision, NLP, and responsible AI using Microsoft Azure.",
     "date": "September 2025",
     "credentialId": "wNMUR-2FMo",
-    "icon": "fab fa-microsoft"
+    "icon": "fab fa-microsoft",
+     "major": true
   },
   {
     "title": "Introduction to Git and GitHub",
@@ -165,7 +167,8 @@
     "description": "Comprehensive networking fundamentals including OSI model, IP addressing, routing, switching, and network security basics.",
     "date": "November 2025",
     "credentialId": "Cisco Verified",
-    "icon": "fab fa-cisco"
+    "icon": "fab fa-cisco",
+     "major": true
   },
   {
     "title": "GitHub Copilot for Developers",
@@ -240,5 +243,17 @@
     "icon": "fas fa-users"
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
