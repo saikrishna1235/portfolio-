@@ -204,19 +204,40 @@ function createProjectCard(project) {
 
 // Render Certificates Section
 function renderCertificates(certificates) {
-    const container = document.getElementById('certificates-container');
-    if (!container) return;
-    
-    container.innerHTML = '';
-    
-    certificates.forEach(certificate => {
-        const certificateCard = createCertificateCard(certificate);
-        container.appendChild(certificateCard);
+    const majorContainer = document.getElementById('certificates-container');
+    const otherContainer = document.getElementById('other-certificates');
+
+    if (!majorContainer || !otherContainer) return;
+
+    majorContainer.innerHTML = '';
+    otherContainer.innerHTML = '';
+
+    certificates.forEach(cert => {
+        const card = createCertificateCard(cert);
+        if (cert.major) {
+            majorContainer.appendChild(card);
+        } else {
+            otherContainer.appendChild(card);
+        }
     });
-    
-    // Re-initialize scroll animations for new elements
+
     setTimeout(initScrollAnimations, 100);
 }
+/*Toggle Certificates Section*/
+document.getElementById('toggle-certificates').addEventListener('click', () => {
+    const container = document.getElementById('other-certificates');
+    const button = document.getElementById('toggle-certificates');
+    const icon = button.querySelector('i');
+
+    container.classList.toggle('collapsed');
+
+    if (container.classList.contains('collapsed')) {
+        button.innerHTML = `<i class="fas fa-chevron-down"></i> View More Certifications`;
+    } else {
+        button.innerHTML = `<i class="fas fa-chevron-up"></i> Hide Certifications`;
+    }
+});
+
 
 function createCertificateCard(certificate) {
     const card = document.createElement('div');
@@ -250,3 +271,5 @@ function createCertificateCard(certificate) {
     
     return card;
 }
+
+
