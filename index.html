@@ -360,7 +360,22 @@
                     return null;
                 }
             }
-
+function renderResume(d) {
+    if(!d?.resume?.url) { resumeSection.style.display='none'; return; }
+    const r = d.resume;
+    resumeSection.innerHTML = `
+        <div class="resume-block">
+            <h3>My Resume</h3>
+            <div class="resume-buttons">
+                <a href="${r.url}" target="_blank" rel="noopener noreferrer" class="resume-btn primary">
+                    📄 ${r.viewText||'View Resume'}
+                </a>
+                <a href="${r.url}" download class="resume-btn">
+                    ⬇ ${r.buttonText||'Download Resume'}
+                </a>
+            </div>
+        </div>`;
+}
             function renderHome(d) {
                 if(!d?.home) { homeSection.style.display='none'; return; }
                 const h = d.home;
