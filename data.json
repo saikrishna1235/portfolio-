@@ -5,6 +5,11 @@
     "description": "I am a Software Developer and Computer Science student passionate about building efficient, scalable, and user-friendly applications. I enjoy solving real-world problems using modern technologies and continuously improving my skills in web development and software engineering.",
     "image": "images/Photo.png"
   },
+  "resume": {
+  "url": "docs/Koyyada Sai Krishna Resume.pdf",
+  "buttonText": "Download Resume",
+  "viewText": "View Resume"
+}
   "skills": [
     {
       "title": "Frontend",
