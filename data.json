@@ -94,15 +94,7 @@
     "description": "Migrated on-premise Hadoop data lake to AWS cloud (S3 + Glue + Athena). Designed partitioning strategy and optimized query performance by 60%.",
     "technologies": ["AWS Glue", "S3", "Athena", "Terraform", "Hive"],
     "github": "https://github.com/arjun-data/lake-migration",
-    "live": "arms-assignment-and-resources-manag.vercel.app"
-  },
-  {
-    "title": "Customer 360 Dashboard",
-    "image": "images/project4.png",
-    "description": "Built a unified customer profile using dbt transformations and Looker for marketing analytics. Integrated data from CRM, web logs, and support tickets.",
-    "technologies": ["dbt", "BigQuery", "Looker", "SQL", "Git"],
-    "github": "https://github.com/arjun-data/customer360",
-    "live": "https://customer360.arjunmehta.dev"
+    "live": "https://arms-assignment-and-resources-manag.vercel.app"
   }
 ],
   "certificates": {
