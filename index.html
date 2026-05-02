@@ -429,17 +429,11 @@ function renderResume(d) {
                         <p class="timeline-institution">${e.institution||''}</p>
                         <span class="timeline-year">${e.year||''}</span>
                         <p class="timeline-desc">${e.description||''}</p>
-                        ${e.document ? `<button class="memo-btn" data-doc-url="${e.document.url}" data-doc-title="${e.document.title||'Document'}">📄 ${e.document.title||'View'}</button>` : ''}
+                        ${e.document ? `<a href="${e.document.url}" target="_blank" rel="noopener noreferrer" class="memo-btn">📄 ${e.document.title||'View'}</a>` : ''}
                     </div>
                 `).join('');
                 educationSection.innerHTML = `<div class="section-header"><h2 id="education-heading">Education</h2></div><div class="timeline">${items}</div>`;
-                educationSection.querySelectorAll('.memo-btn').forEach(btn=>{
-                    btn.addEventListener('click', ()=>{
-                        const url = btn.dataset.docUrl;
-                        const title = btn.dataset.docTitle;
-                        openDocModal(url, title);
-                    });
-                });
+                
             }
 
             function renderProjects(d) {
