@@ -94,7 +94,7 @@
     "description": "Migrated on-premise Hadoop data lake to AWS cloud (S3 + Glue + Athena). Designed partitioning strategy and optimized query performance by 60%.",
     "technologies": ["AWS Glue", "S3", "Athena", "Terraform", "Hive"],
     "github": "https://github.com/arjun-data/lake-migration",
-    "live": ""
+    "live": "arms-assignment-and-resources-manag.vercel.app"
   },
   {
     "title": "Customer 360 Dashboard",
