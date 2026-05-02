@@ -15,25 +15,25 @@
       "title": "Frontend",
       "level": "",
       "description": "Crafting responsive, accessible, and performant user interfaces with modern frameworks and tooling.",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "React", "Vue", "Tailwind CSS", "Next.js", "TypeScript"]
+      "technologies": ["HTML5", "CSS3", "JavaScript", "React","Bootstrap"]
     },
     {
       "title": "Backend",
       "level": "",
       "description": "Designing robust REST & GraphQL APIs, microservices, and server-side logic with industry‑standard languages.",
-      "technologies": ["Node.js", "Express", "Python", "Django", "Java", "Spring Boot", "Go", "GraphQL"]
+      "technologies": ["Node.js", "Express", "Python", "Django", "Java"]
     },
     {
       "title": "Databases",
       "level": "",
       "description": "Modeling, querying, and managing both relational and NoSQL databases for optimal data flow and integrity.",
-      "technologies": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Firebase", "DynamoDB", "Prisma ORM"]
+      "technologies": ["MySQL", "MongoDB",]
     },
     {
       "title": "Cloud",
       "level": "",
       "description": "Deploying, scaling, and monitoring applications using cloud platforms and DevOps practices.",
-      "technologies": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Vercel", "GitHub Actions", "GCP"]
+      "technologies": ["AWS","Vercel", "GitHub Actions"]
     }
   ],
   "education": [
