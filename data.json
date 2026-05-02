@@ -81,12 +81,12 @@
     "live": "https://your-project-demo-link.com"
     },
   {
-    "title": "Real-Time Anomaly Detection",
-    "image": "images/project2.png",
-    "description": "Streaming pipeline using Kafka and Flink to detect fraudulent transactions in real time. Achieved < 2-second latency with exactly-once semantics.",
-    "technologies": ["Kafka", "Apache Flink", "Java", "Docker", "Elasticsearch"],
-    "github": "https://github.com/arjun-data/anomaly-detection",
-    "live": "https://anomaly.arjunmehta.dev"
+    "title": "Assignment & Resource Management System (LMS)",
+    "image": "images/Screenshot (1253).png",
+    "description": "Built a full-stack LMS platform to manage assignments, resources, and course activities with role-based dashboards for students, teachers, and admins.",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Node.js","Express.js","MySQL","GitHub","VS Code","Postman","Bcrypt (Password Hashing), Input Validation"],
+    "github": "https://github.com/saikrishna1235/ARMS-Assignment-and-resources-management-system-",
+    "live": "https://github.com/saikrishna1235/ARMS-Assignment-and-resources-management-system-"
   },
   {
     "title": "Data Lake Migration",
