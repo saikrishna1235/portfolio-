@@ -86,7 +86,7 @@
     "description": "Built a full-stack LMS platform to manage assignments, resources, and course activities with role-based dashboards for students, teachers, and admins.",
     "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Node.js","Express.js","MySQL","GitHub","VS Code","Postman","Bcrypt (Password Hashing), Input Validation"],
     "github": "https://github.com/saikrishna1235/ARMS-Assignment-and-resources-management-system-",
-    "live": "https://github.com/saikrishna1235/ARMS-Assignment-and-resources-management-system-"
+    "live": "arms-assignment-and-resources-manag.vercel.app"
   },
   {
     "title": "Data Lake Migration",
