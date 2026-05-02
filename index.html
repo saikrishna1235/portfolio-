@@ -512,7 +512,7 @@ function renderResume(d) {
 
             function renderFooter(d) {
                 const home=d?.home||{}; const contact=d?.contact||{}; const socials=contact.socials||{};
-                const icons={whatsapp:'💬',instagram:'📸',linkedin:'💼',github:'🐙',leetcode:'🧩'};
+                const icons={whatsapp:'💬',linkedin:'💼',github:'🐙',leetcode:'🧩'};
                 const links = Object.entries(socials).map(([p,u])=>`<a href="${u||'#'}" target="_blank" rel="noopener" title="${p}">${icons[p]||'🔗'}</a>`).join('');
                 footerEl.innerHTML = `
                     <div class="footer-container">
