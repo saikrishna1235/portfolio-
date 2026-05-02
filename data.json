@@ -1,0 +1,211 @@
+{
+  "home": {
+    "name": "Koyyada Sai Krishna",
+    "role": "Data Engineer",
+    "description": "Passionate about building scalable data pipelines, transforming raw data into actionable insights, and designing robust data architectures. I enjoy working at the intersection of cloud, big data, and analytics.",
+    "image": "images/Photo.png"
+  },
+  "skills": [
+    {
+      "title": "Data Ingestion",
+      "level": "Expert",
+      "description": "Designing fault-tolerant, high-throughput ingestion pipelines using Kafka, Kinesis, and custom connectors.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Data Processing & Transformation",
+      "level": "Advanced",
+      "description": "Building complex ETL/ELT workflows with PySpark, Flink, and dbt for clean, analytics-ready datasets.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Data Storage & Warehousing",
+      "level": "Expert",
+      "description": "Modeling and managing cloud data warehouses (Snowflake, BigQuery, Redshift) with focus on cost and performance.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Data Modeling",
+      "level": "Advanced",
+      "description": "Designing star schemas, data vaults, and event-driven models optimized for BI and ML workloads.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Data Pipelines & Orchestration",
+      "level": "Expert",
+      "description": "Orchestrating multi-step data workflows with Airflow, Prefect, and Dagster, ensuring idempotency and monitoring.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Big Data Technologies",
+      "level": "Advanced",
+      "description": "Leveraging Spark, Hive, and Hadoop ecosystem to process terabytes of data efficiently.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Cloud Data Engineering",
+      "level": "Expert",
+      "description": "Architecting data solutions on AWS, GCP, and Azure with IaC and serverless services.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Data Quality & Governance",
+      "level": "Advanced",
+      "description": "Implementing data observability, lineage, and quality frameworks using Great Expectations and Monte Carlo.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Streaming & Real-Time Data",
+      "level": "Advanced",
+      "description": "Building real-time pipelines with Kafka Streams, Flink, and Spark Structured Streaming.",
+      "technologies": ["Learning..."]
+    },
+    {
+      "title": "Version Control & Collaboration",
+      "level": "Advanced",
+      "description": "Git-based workflows, code reviews, and CI/CD for data pipelines and infrastructure.",
+      "technologies": ["Learning..."]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "SR University, Warangal",
+      "year": "2022 - 2028",
+      "description": "Focus on data structures, algorithms, and Core Concepts. ",
+      "document": {
+        "title": "Transcript / Memo",   
+        "url": "docs/SR University 2,1.pdf",
+        "type": "pdf"
+      }
+    },
+    {
+      "degree": "Diploma",
+      "institution": "Singareni Collieries Polytechnic College , Manchiral",
+      "year": "2022 - 2025",
+      "description": "Diploma Computer Science student with a strong academic record (CGPA 9.63), skilled in programming, databases, and web technologies, with hands-on project and lab experience. ",
+      "document": {
+        "title": "Memo Document",
+        "url": "docs/CONSOLIDATED_MEMORANDUM_MARKS_22161-cs-039.pdf",
+        "type": "pdf"
+      }
+    },
+    {
+      "degree": "High School",
+      "institution": "Radient High School , Manchiral",
+      "year": "2022",
+      "description": "SSC graduate with an academic record (GPA 9.7), demonstrating strong fundamentals and consistent performance across subjects. ",
+      "document": {
+        "title": "Memo Document",
+        "url": "docs/certificates.pdf",
+        "type": "pdf"
+      }
+    }
+  ],
+ "projects": [
+    {
+    "title": "TS EAMCET Smart College Predictor",
+    "image": "images/p1.png",
+    "description": "Machine Learning-based web application that predicts colleges based on student rank, category, gender, and region. Uses a Random Forest model to generate probability-based recommendations and classifies options into safe, target, and dream categories, with interactive cutoff trend visualizations.",
+    "technologies": ["Python", "FastAPI", "Scikit-learn", "HTML", "CSS", "JavaScript", "Chart.js"],
+    "github": "https://github.com/saikrishna1235/ML_Project-Rank_based_college_and_branch_predection",
+    "live": "https://your-project-demo-link.com"
+    },
+  {
+    "title": "Real-Time Anomaly Detection",
+    "image": "images/project2.png",
+    "description": "Streaming pipeline using Kafka and Flink to detect fraudulent transactions in real time. Achieved < 2-second latency with exactly-once semantics.",
+    "technologies": ["Kafka", "Apache Flink", "Java", "Docker", "Elasticsearch"],
+    "github": "https://github.com/arjun-data/anomaly-detection",
+    "live": "https://anomaly.arjunmehta.dev"
+  },
+  {
+    "title": "Data Lake Migration",
+    "image": "images/project3.png",
+    "description": "Migrated on-premise Hadoop data lake to AWS cloud (S3 + Glue + Athena). Designed partitioning strategy and optimized query performance by 60%.",
+    "technologies": ["AWS Glue", "S3", "Athena", "Terraform", "Hive"],
+    "github": "https://github.com/arjun-data/lake-migration",
+    "live": ""
+  },
+  {
+    "title": "Customer 360 Dashboard",
+    "image": "images/project4.png",
+    "description": "Built a unified customer profile using dbt transformations and Looker for marketing analytics. Integrated data from CRM, web logs, and support tickets.",
+    "technologies": ["dbt", "BigQuery", "Looker", "SQL", "Git"],
+    "github": "https://github.com/arjun-data/customer360",
+    "live": "https://customer360.arjunmehta.dev"
+  }
+],
+  "certificates": {
+    "featured": [
+{
+        "name": "Microsoft Certified: Azure AI Fundamentals",
+        "platform": "Microsoft Azure",
+        "date": "SEP-09-2025",
+        "code": "wNMUR-2FMo" ,
+        "link": "https://www.certiport.com/portal/pages/credentialverification.aspx",
+        "icon": "images/channels4_profile.jpg",
+        "description": "Validates foundational knowledge of artificial intelligence and machine learning concepts, and how to implement AI solutions using Microsoft Azure services , <b>Student ID :2503a52l16@sru.edu.in Birthdate:29/01/2005</b>."
+    },
+      {
+        "name": "CCNA: Introduction to Networks",
+        "platform": "Cisco Networking Academy",
+        "date": "NOV-19-2025",
+        "code": "CCNA",
+        "link": "https://www.credly.com/badges/708b2f59-a5e3-4ec0-a017-0501744471c3",
+        "icon": "images/images.png",
+        "description": "Validates foundational networking knowledge including configuring switches and routers, understanding network protocols, IP addressing (IPv4 and IPv6), and troubleshooting connectivity in small networks."
+    },
+    {
+        "name": "AWS Academy Graduate - Cloud Developing",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-27-2025",
+        "code": "AWS-CLOUD-DEVELOPING",
+        "link": "https://www.credly.com/go/8Olnw9Kp",
+        "icon": "images/logo_0.png",
+        "description": "Validates practical skills in developing, deploying, and maintaining applications on AWS, including core services, cloud architecture, and hands-on experience with cloud-based development environments."
+    }
+    ],
+    "others": [
+    {
+        "name": "AWS Academy Graduate - Cloud Foundations",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-08-2025",
+        "code": "AWS-CF-FOUNDATIONS",
+        "link": "https://www.credly.com/go/4Ac4Ca84",
+        "icon": "images/logo_0.png",
+        "description": "Validates foundational knowledge of cloud computing concepts, AWS core services, security, architecture, pricing, and support, preparing learners for entry-level cloud roles."
+    },
+    {
+        "name": "AWS Academy Graduate - Cloud Security Builder",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-27-2025",
+        "code": "AWS-CLOUD-SECURITY",
+        "link": "https://www.credly.com/go/Dwxie8ZQ",
+        "icon": "images/logo_0.png",
+        "description": "Validates foundational skills in cloud security on AWS, including identity and access management, data protection, network security, and implementing secure cloud architectures."
+    },
+    {
+        "name": "AWS Academy Graduate - Cloud Web Application Builder",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-08-2025",
+        "code": "AWS-CLOUD-WEB",
+        "link": "https://www.credly.com/go/Ybh72j5W",
+        "icon": "images/logo_0.png",
+        "description": "Validates skills in building and deploying web applications on AWS, including using cloud services, managing application architecture, and implementing scalable and reliable web solutions."
+    }
+    ]
+  },
+  "contact": {
+    "email": "saikrishnakoyyada20669@gmail.com",
+    "phone": "+91 6303212628",
+    "location": "Warangal , Telangana , India",
+    "socials": {
+      "whatsapp": "https://wa.me/916303212628",
+      "instagram": "https://instagram.com/arjun.data",
+      "linkedin": "https://www.linkedin.com/in/saikrishna-koyyada-422923365/",
+      "github": "https://github.com/saikrishna1235",
+      "leetcode": "https://leetcode.com/arjunmehta"
+    }
+  }
+}
