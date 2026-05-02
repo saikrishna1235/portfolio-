@@ -1,8 +1,8 @@
 {
   "home": {
-    "name": "Alex Rivera",
-    "role": "Full‑Stack Developer",
-    "description": "I build modern, scalable web applications from frontend to backend, with a focus on clean code, performance, and cloud-native architectures.",
+    "name": "Koyyada Sai Krishna",
+    "role": "Data Engineer",
+    "description": "Passionate about building scalable data pipelines, transforming raw data into actionable insights, and designing robust data architectures. I enjoy working at the intersection of cloud, big data, and analytics.",
     "image": "images/Photo.png"
   },
   "skills": [
@@ -34,113 +34,142 @@
   "education": [
     {
       "degree": "B.Tech in Computer Science",
-      "institution": "Indian Institute of Technology, Delhi",
-      "year": "2019 - 2023",
-      "description": "Focus on data structures, algorithms, and distributed systems. Completed a capstone project on real‑time log analytics using Apache Kafka and Spark.",
+      "institution": "SR University, Warangal",
+      "year": "2022 - 2028",
+      "description": "Focus on data structures, algorithms, and Core Concepts. ",
       "document": {
-        "title": "Transcript / Memo",
-        "url": "docs/transcript.pdf",
+        "title": "Transcript / Memo",   
+        "url": "docs/SR University 2,1.pdf",
         "type": "pdf"
       }
     },
     {
-      "degree": "Higher Secondary (Class XII)",
-      "institution": "Delhi Public School, R.K. Puram",
-      "year": "2017 - 2019",
-      "description": "Scored 96.4% in PCM with Computer Science. Active member of the tech club.",
+      "degree": "Diploma",
+      "institution": "Singareni Collieries Polytechnic College , Manchiral",
+      "year": "2022 - 2025",
+      "description": "Diploma Computer Science student with a strong academic record (CGPA 9.63), skilled in programming, databases, and web technologies, with hands-on project and lab experience. ",
       "document": {
         "title": "Memo Document",
-        "url": "docs/memo-mark-sheet.pdf",
+        "url": "docs/CONSOLIDATED_MEMORANDUM_MARKS_22161-cs-039.pdf",
+        "type": "pdf"
+      }
+    },
+    {
+      "degree": "High School",
+      "institution": "Radient High School , Manchiral",
+      "year": "2022",
+      "description": "SSC graduate with an academic record (GPA 9.7), demonstrating strong fundamentals and consistent performance across subjects. ",
+      "document": {
+        "title": "Memo Document",
+        "url": "docs/certificates.pdf",
         "type": "pdf"
       }
     }
   ],
-  "projects": [
+ "projects": [
     {
-      "title": "E‑Commerce Platform",
-      "image": "images/project1.png",
-      "description": "Full‑stack marketplace with React frontend, Node.js/Express backend, MongoDB database, and Stripe payments. Deployed on AWS ECS.",
-      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "AWS ECS"],
-      "github": "https://github.com/alex-rivera/ecommerce",
-      "live": "https://shop.alexrivera.dev"
+    "title": "TS EAMCET Smart College Predictor",
+    "image": "images/p1.png",
+    "description": "Machine Learning-based web application that predicts colleges based on student rank, category, gender, and region. Uses a Random Forest model to generate probability-based recommendations and classifies options into safe, target, and dream categories, with interactive cutoff trend visualizations.",
+    "technologies": ["Python", "FastAPI", "Scikit-learn", "HTML", "CSS", "JavaScript", "Chart.js"],
+    "github": "https://github.com/saikrishna1235/ML_Project-Rank_based_college_and_branch_predection",
+    "live": "https://your-project-demo-link.com"
     },
-    {
-      "title": "Real‑Time Chat Application",
-      "image": "images/project2.png",
-      "description": "Socket.io‑based chat app with user authentication, typing indicators, and persistent message storage in PostgreSQL.",
-      "technologies": ["React", "Socket.io", "Express", "PostgreSQL", "JWT"],
-      "github": "https://github.com/alex-rivera/chat-app",
-      "live": "https://chat.alexrivera.dev"
-    },
-    {
-      "title": "Cloud Resume Challenge",
-      "image": "images/project3.png",
-      "description": "Serverless resume website with visitor counter using AWS Lambda, API Gateway, DynamoDB, and CI/CD via GitHub Actions.",
-      "technologies": ["AWS Lambda", "API Gateway", "DynamoDB", "S3", "GitHub Actions"],
-      "github": "https://github.com/alex-rivera/cloud-resume",
-      "live": "https://resume.alexrivera.dev"
-    },
-    {
-      "title": "Task Manager API",
-      "image": "images/project4.png",
-      "description": "RESTful API with Django REST Framework, JWT auth, PostgreSQL, and comprehensive API documentation with Swagger.",
-      "technologies": ["Django", "PostgreSQL", "JWT", "Swagger", "Docker"],
-      "github": "https://github.com/alex-rivera/task-api",
-      "live": ""
-    }
-  ],
+  {
+    "title": "Real-Time Anomaly Detection",
+    "image": "images/project2.png",
+    "description": "Streaming pipeline using Kafka and Flink to detect fraudulent transactions in real time. Achieved < 2-second latency with exactly-once semantics.",
+    "technologies": ["Kafka", "Apache Flink", "Java", "Docker", "Elasticsearch"],
+    "github": "https://github.com/arjun-data/anomaly-detection",
+    "live": "https://anomaly.arjunmehta.dev"
+  },
+  {
+    "title": "Data Lake Migration",
+    "image": "images/project3.png",
+    "description": "Migrated on-premise Hadoop data lake to AWS cloud (S3 + Glue + Athena). Designed partitioning strategy and optimized query performance by 60%.",
+    "technologies": ["AWS Glue", "S3", "Athena", "Terraform", "Hive"],
+    "github": "https://github.com/arjun-data/lake-migration",
+    "live": ""
+  },
+  {
+    "title": "Customer 360 Dashboard",
+    "image": "images/project4.png",
+    "description": "Built a unified customer profile using dbt transformations and Looker for marketing analytics. Integrated data from CRM, web logs, and support tickets.",
+    "technologies": ["dbt", "BigQuery", "Looker", "SQL", "Git"],
+    "github": "https://github.com/arjun-data/customer360",
+    "live": "https://customer360.arjunmehta.dev"
+  }
+],
   "certificates": {
     "featured": [
+{
+        "name": "Microsoft Certified: Azure AI Fundamentals",
+        "platform": "Microsoft Azure",
+        "date": "SEP-09-2025",
+        "code": "wNMUR-2FMo" ,
+        "link": "https://www.certiport.com/portal/pages/credentialverification.aspx",
+        "icon": "images/channels4_profile.jpg",
+        "description": "Validates foundational knowledge of artificial intelligence and machine learning concepts, and how to implement AI solutions using Microsoft Azure services , <b>Student ID :2503a52l16@sru.edu.in Birthdate:29/01/2005</b>."
+    },
       {
-        "name": "AWS Certified Solutions Architect – Associate",
-        "platform": "Amazon Web Services",
-        "date": "2024",
-        "code": "AWS-SAA-11223",
-        "link": "https://aws.amazon.com/verification",
-        "icon": "images/cert-aws.png",
-        "description": "Validates ability to design distributed systems on AWS following best practices."
-      },
-      {
-        "name": "Meta Front‑End Developer Professional Certificate",
-        "platform": "Coursera (Meta)",
-        "date": "2023",
-        "code": "META-FE-4455",
-        "link": "https://coursera.org/verify/professional-cert/meta-frontend",
-        "icon": "images/cert-meta.png",
-        "description": "Covers React, advanced JavaScript, version control, and UI/UX fundamentals."
-      }
+        "name": "CCNA: Introduction to Networks",
+        "platform": "Cisco Networking Academy",
+        "date": "NOV-19-2025",
+        "code": "CCNA",
+        "link": "https://www.credly.com/badges/708b2f59-a5e3-4ec0-a017-0501744471c3",
+        "icon": "images/images.png",
+        "description": "Validates foundational networking knowledge including configuring switches and routers, understanding network protocols, IP addressing (IPv4 and IPv6), and troubleshooting connectivity in small networks."
+    },
+    {
+        "name": "AWS Academy Graduate - Cloud Developing",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-27-2025",
+        "code": "AWS-CLOUD-DEVELOPING",
+        "link": "https://www.credly.com/go/8Olnw9Kp",
+        "icon": "images/logo_0.png",
+        "description": "Validates practical skills in developing, deploying, and maintaining applications on AWS, including core services, cloud architecture, and hands-on experience with cloud-based development environments."
+    }
     ],
     "others": [
-      {
-        "name": "MongoDB Associate Developer",
-        "platform": "MongoDB University",
-        "date": "2023",
-        "code": "MDB-AD-7890",
-        "link": "https://university.mongodb.com/certification",
-        "icon": "images/cert-mongodb.png",
-        "description": "Proficiency in MongoDB CRUD operations, aggregation, and data modeling."
-      },
-      {
-        "name": "Docker Certified Associate",
-        "platform": "Docker, Inc.",
-        "date": "2022",
-        "code": "DCA-9988",
-        "link": "https://training.docker.com/certification",
-        "icon": "images/cert-docker.png",
-        "description": "Skills in containerization, Docker Compose, Swarm, and image management."
-      }
+    {
+        "name": "AWS Academy Graduate - Cloud Foundations",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-08-2025",
+        "code": "AWS-CF-FOUNDATIONS",
+        "link": "https://www.credly.com/go/4Ac4Ca84",
+        "icon": "images/logo_0.png",
+        "description": "Validates foundational knowledge of cloud computing concepts, AWS core services, security, architecture, pricing, and support, preparing learners for entry-level cloud roles."
+    },
+    {
+        "name": "AWS Academy Graduate - Cloud Security Builder",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-27-2025",
+        "code": "AWS-CLOUD-SECURITY",
+        "link": "https://www.credly.com/go/Dwxie8ZQ",
+        "icon": "images/logo_0.png",
+        "description": "Validates foundational skills in cloud security on AWS, including identity and access management, data protection, network security, and implementing secure cloud architectures."
+    },
+    {
+        "name": "AWS Academy Graduate - Cloud Web Application Builder",
+        "platform": "Amazon Web Services (AWS)",
+        "date": "OCT-08-2025",
+        "code": "AWS-CLOUD-WEB",
+        "link": "https://www.credly.com/go/Ybh72j5W",
+        "icon": "images/logo_0.png",
+        "description": "Validates skills in building and deploying web applications on AWS, including using cloud services, managing application architecture, and implementing scalable and reliable web solutions."
+    }
     ]
   },
   "contact": {
-    "email": "alex.rivera@devfolio.me",
-    "phone": "+91 98765 43210",
-    "location": "Bangalore, India",
+    "email": "saikrishnakoyyada20669@gmail.com",
+    "phone": "+91 6303212628",
+    "location": "Warangal , Telangana , India",
     "socials": {
-      "whatsapp": "https://wa.me/919876543210",
-      "instagram": "https://instagram.com/alex.dev",
-      "linkedin": "https://linkedin.com/in/alexrivera",
-      "github": "https://github.com/alex-rivera",
-      "leetcode": "https://leetcode.com/alexrivera"
+      "whatsapp": "https://wa.me/916303212628",
+      "instagram": "https://instagram.com/arjun.data",
+      "linkedin": "https://www.linkedin.com/in/saikrishna-koyyada-422923365/",
+      "github": "https://github.com/saikrishna1235",
+      "leetcode": "https://leetcode.com/arjunmehta"
     }
   }
 }
