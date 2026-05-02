@@ -27,7 +27,7 @@
       "title": "Databases",
       "level": "",
       "description": "Modeling, querying, and managing both relational and NoSQL databases for optimal data flow and integrity.",
-      "technologies": ["MySQL", "MongoDB",]
+      "technologies": ["MySQL", "MongoDB"]
     },
     {
       "title": "Cloud",
