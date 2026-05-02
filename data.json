@@ -87,14 +87,6 @@
     "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Node.js","Express.js","MySQL","GitHub","VS Code","Postman","Bcrypt (Password Hashing), Input Validation"],
     "github": "https://github.com/saikrishna1235/ARMS-Assignment-and-resources-management-system-",
     "live": "arms-assignment-and-resources-manag.vercel.app"
-  },
-  {
-    "title": "Data Lake Migration",
-    "image": "images/project3.png",
-    "description": "Migrated on-premise Hadoop data lake to AWS cloud (S3 + Glue + Athena). Designed partitioning strategy and optimized query performance by 60%.",
-    "technologies": ["AWS Glue", "S3", "Athena", "Terraform", "Hive"],
-    "github": "https://github.com/arjun-data/lake-migration",
-    "live": "https://arms-assignment-and-resources-manag.vercel.app"
   }
 ],
   "certificates": {
