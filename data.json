@@ -1,4 +1,4 @@
-1{
+{
   "home": {
     "name": "Koyyada Sai Krishna",
     "role": "Software developer",
@@ -126,7 +126,7 @@
     "link": "https://coursera.org/verify/57R5GK9BIHNA",
     "icon": "images/coursera.png",
     "description": "Validates practical skills in Python fullstack application development using ChatGPT assistance, including backend programming, application workflows, AI-assisted coding, and project-based software development."
-},
+    },
     {
         "name": "AWS Academy Graduate - Cloud Developing",
         "platform": "Amazon Web Services (AWS)",
