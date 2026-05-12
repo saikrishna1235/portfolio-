@@ -109,6 +109,15 @@
         "icon": "images/images.png",
         "description": "Validates foundational networking knowledge including configuring switches and routers, understanding network protocols, IP addressing (IPv4 and IPv6), and troubleshooting connectivity in small networks."
     },
+      {
+    "name": "Introduction to Git and GitHub",
+    "platform": "Coursera",
+    "date": "OCT-08-2025",
+    "code": "GIT-GITHUB",
+    "link": "https://coursera.org/verify/E8KKG1R26ZXA",
+    "icon": "images/google.png",
+    "description": "Validates foundational knowledge of Git and GitHub, including version control, repository management, branching, merging, collaboration workflows, and using GitHub for software development projects."
+  }
     {
         "name": "AWS Academy Graduate - Cloud Developing",
         "platform": "Amazon Web Services (AWS)",
