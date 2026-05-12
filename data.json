@@ -1,4 +1,4 @@
-{
+1{
   "home": {
     "name": "Koyyada Sai Krishna",
     "role": "Software developer",
@@ -118,6 +118,15 @@
     "icon": "images/google.png",
     "description": "Validates foundational knowledge of Git and GitHub, including version control, repository management, branching, merging, collaboration workflows, and using GitHub for software development projects."
   },
+      {
+    "name": "Python Development with ChatGPT: Fullstack App Development",
+    "platform": "Coursera Project Network",
+    "date": "OCT-30-2025",
+    "code": "PYTHON-CHATGPT",
+    "link": "https://coursera.org/verify/57R5GK9BIHNA",
+    "icon": "images/coursera.png",
+    "description": "Validates practical skills in Python fullstack application development using ChatGPT assistance, including backend programming, application workflows, AI-assisted coding, and project-based software development."
+},
     {
         "name": "AWS Academy Graduate - Cloud Developing",
         "platform": "Amazon Web Services (AWS)",
