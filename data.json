@@ -117,7 +117,7 @@
     "link": "https://coursera.org/verify/E8KKG1R26ZXA",
     "icon": "images/google.png",
     "description": "Validates foundational knowledge of Git and GitHub, including version control, repository management, branching, merging, collaboration workflows, and using GitHub for software development projects."
-  }
+  },
     {
         "name": "AWS Academy Graduate - Cloud Developing",
         "platform": "Amazon Web Services (AWS)",
