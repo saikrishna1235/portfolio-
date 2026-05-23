@@ -73,6 +73,26 @@
   ],
  "projects": [
     {
+  "title": "Manufacturing CRM System",
+  "image": "images/p2.png",
+  "description": "Full-stack MERN-based CRM application designed for manufacturing businesses to manage leads, sales pipelines, customer workflows, and business analytics. Features JWT authentication, protected routes, lead management, status tracking, search & filters, revenue analytics dashboard, and interactive charts with a modern responsive UI.",
+  "technologies": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB Atlas",
+    "Mongoose",
+    "JWT Authentication",
+    "Tailwind CSS",
+    "Axios",
+    "Recharts",
+    "Vercel",
+    "Render"
+  ],
+  "github": "https://github.com/saikrishna1235/manufacturing-crm-system",
+  "live": "https://manufacturing-crm-system.vercel.app"
+},
+    {
     "title": "TS EAMCET Smart College Predictor",
     "image": "images/p1.png",
     "description": "Machine Learning-based web application that predicts colleges based on student rank, category, gender, and region. Uses a Random Forest model to generate probability-based recommendations and classifies options into safe, target, and dream categories, with interactive cutoff trend visualizations.",
