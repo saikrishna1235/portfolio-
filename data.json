@@ -72,6 +72,24 @@
     }
   ],
  "projects": [
+   {
+  "title": "APIS Healthcare Website",
+  "image": "images/APIS.png",
+  "description": "A modern, responsive healthcare and pharmaceutical training institute website developed using Next.js. Features dynamic course pages, SEO optimization, Google Search Console integration, XML sitemap, robots.txt, structured data (JSON-LD), WhatsApp enquiry integration, enrollment modal, responsive navigation, and a professional UI optimized for desktop and mobile devices.",
+  "technologies": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Vercel",
+    "Google Search Console",
+    "SEO",
+    "JSON-LD",
+    "WhatsApp API"
+  ],
+  "github": "https://github.com/your-username/apis-healthcare-website",
+  "live": "https://www.apishealthcare.co.in"
+},
     {
   "title": "Manufacturing CRM System",
   "image": "images/p2.png",
