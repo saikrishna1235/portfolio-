@@ -116,7 +116,7 @@
     "description": "Browser-based Hospital Management System for managing patients, doctors, appointments, FIFO queues, medical records, pharmacy inventory, billing, payments, and dashboard insights. Implements role-based access control and LocalStorage-based data persistence, with Git and GitHub used for feature-branch development, incremental commits, collaborative integration, and version control.",
     "technologies": ["HTML5", "CSS3", "JavaScript", "LocalStorage", "Data Structures", "Git", "GitHub"],
     "github": "https://github.com/saikrishna1235/hospital-management-system",
-    "live": "https://hospital-management-system-n3e9sjxbc-k-sai-krishna-s-projects.vercel.app"
+    "live": "https://hospital-management-system-hvokt2nta-k-sai-krishna-s-projects.vercel.app/pages/login.html"
 },
     {
     "title": "TS EAMCET Smart College Predictor",
